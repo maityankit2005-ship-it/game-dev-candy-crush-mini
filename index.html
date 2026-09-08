@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candy Crush Mini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header>
+      <div>
+        <h1>🍬 Candy Crush Mini</h1>
+        <p>Match 3 or more candies!</p>
+      </div>
+      <div class="stats">
+        <span>Score <b id="score">0</b></span>
+        <span>Moves <b id="moves">30</b></span>
+      </div>
+    </header>
+
+    <section id="board" class="board" aria-label="Candy board"></section>
+
+    <div class="controls">
+      <button id="restart">🔄 Restart</button>
+      <p id="message">Swap two candies to start!</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
