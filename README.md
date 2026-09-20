@@ -36,4 +36,4 @@ Match:
 - CSS3
 - Vanilla JavaScript
 
-Made as a simple beginner-friendly web game.
+Made as a simple beginner-friendly web game.hope you like it 
